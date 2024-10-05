@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #fff;
+  height: 100vh;
+  padding: 10px 30px 10px 30px;
+}
+.popular {
+  color: #0f172a;
+  font-family: 'Lobster', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.language-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.products-loader-container {
+  text-align: center;
+}
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-message {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+.failure-img {
+  height: 300px;
+  width: 100%;
+}
+.git-repo-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

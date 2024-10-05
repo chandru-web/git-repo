@@ -1,0 +1,78 @@
+/* Base Styles */
+.list-item {
+  list-style-type: none;
+}
+
+.repo-item {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px 20px 20px 0px;
+}
+
+.avatar-img {
+  height: 80px;
+  width: 80px;
+}
+
+.name {
+  color: #e73959;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.star-count-container,
+.forks-count-container,
+.open-issue-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.stars-logo,
+.forks-logo,
+.issue-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.stars-count,
+.forks-count,
+.issues-count {
+  color: #1e293b;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .repo-item {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .stars-count,
+  .forks-count,
+  .issues-count {
+    font-size: 16px;
+  }
+}
